@@ -72,6 +72,7 @@ var Puzzle = function Puzzle(el) {
     for (var i = 0; i < 16; i++) {
       this.matrix[i] = new Piece(this);
       this.matrix[i].el = document.createElement('div');
+      this.matrix[i].el.id = 'juego';
       this.matrix[i].el.innerHTML = i + 1;
       this.matrix[i].realIndex = i;
   
