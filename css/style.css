@@ -1385,7 +1385,7 @@ input {
 
 .counter {
 	font-size: 3rem;
-	top: 0;
+	top: 50%;
 	transform: translate(-50%, calc(-100% - 20px));
 }
 
